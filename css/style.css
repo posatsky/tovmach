@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+html{
+	background-image: url(../images/bgr.png);
+	width: 100%;
+	height:100%;
+	font-family: 'Lobster', cursive;
+}
+body{
+	background-image:url(../images/bgr4.png);
+	background-repeat:no-repeat;
+	margin:0 auto;
+	width:1000px;
+	height:750px;
+	
+}
+
+header nav {
+	position:relative;
+	top:50px;
+	left:210px;
+	width:100%;
+	
+}
+header nav a {
+	margin:3px;
+    margin-left: 8px;
+	padding:5px;
+	font-size:115%;
+	color:#000;
+	text-decoration: none;
+	background-image: url(../images/border_menu.png);
+	border: solid 1px #000;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+     border-radius: 5px;
+}
+
+header nav a:hover {
+	border: solid 1px #fff;
+	-webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+     border-radius: 7px;
+}
+	
+
+#tovmach img{
+	width:180px;
+	height:170px;
+	position:relative;
+	left:195px;
+	top: 227px;
+}
+#tovmach a {
+	display:block;
+	
+}	
+.groop a{
+	font-size: 18px;
+	color:#000;
+	text-decoration:none;	
+}
+.groop a:hover{
+	color:#FFF;
+}
+
+#banja{
+	width:100px;
+	height:50px;
+	position:relative;
+	left:258px;
+	top:204px;
+}
+
+
+
+#archi img{
+	width:218px;
+	height:136px;
+	position:relative;
+	left:173px;
+	top: 181px;
+}
+#koted{
+	width:130px;
+	height:50px;
+	position:relative;
+	left:239px;
+	top:166px;
+}
+
+#archi {
+	float:left;
+}
+
+#sadyby img{
+	width:221px;
+	height:206px;
+	position:relative;
+	left:200px;
+	top: 23px;
+}
+#sadyba{
+	width:100px;
+	height:50px;
+	position:relative;
+	left:292px;
+	top:8px;
+}
+
+#sadyby {
+	float:left;
+}
+
+#zavod img{
+	width:256px;
+	height:127px;
+	position:relative;
+	left:233px;
+	top:-5px;
+}
+#kafe{
+	width:100px;
+	height:50px;
+	position:relative;
+	left:770px;
+	top:-170px;
+}
+#pablic img{
+	width:181px;
+	height:180px;
+	position:relative;
+	left:292px;
+	top:-64px;
+}
+#pablik{
+	width:300px;
+	height:50px;
+	position:relative;
+	left:770px;
+	top:-78px;
+}
+
+.content img:hover{
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+.content img {
+	border:0;
+}
+article{
+    
+	
+    position: relative;
+    top: 200px;
+    left: 200px;
+    width: 700px;
+    padding: 0px 10px 10px 10px;
+}
+.portret{
+    width: 200px;
+    height: 160px;
+    float: left;
+    margin: 10px;
+}
+h1{
+    text-align: center;
+    margin: 0px;
+}
+#bud{
+    float: right;
+    position: relative;
+   
+    
+}
